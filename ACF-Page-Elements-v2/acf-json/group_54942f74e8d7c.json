@@ -1,0 +1,341 @@
+{
+    "key": "group_54942f74e8d7c",
+    "title": "Site Options",
+    "fields": [
+        {
+            "key": "field_5c2e8ce695264",
+            "label": "Site Options",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5970bc3569d8a",
+            "label": "Header Style",
+            "name": "header_style",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "header": "Default Header",
+                "header-01": "Custom Header 1",
+                "header-02": "Custom Header 2",
+                "header-03": "Custom Header 3"
+            },
+            "default_value": [
+                "header"
+            ],
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "return_format": "value",
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_54a179410b862",
+            "label": "Masthead Logo",
+            "name": "masthead_logo",
+            "type": "image",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "field_type-image field_key-field_54a179410b862 field_type-image field_key-field_54a179410b862 field_type-image field_key-field_54a179410b862",
+                "id": ""
+            },
+            "return_format": "id",
+            "preview_size": "medium",
+            "library": "all",
+            "min_width": 0,
+            "min_height": 0,
+            "min_size": 0,
+            "max_width": 0,
+            "max_height": 0,
+            "max_size": 0,
+            "mime_types": ""
+        },
+        {
+            "key": "field_54c6b23af859f",
+            "label": "Mobile Logo",
+            "name": "mobile_logo",
+            "type": "image",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "field_type-image field_key-field_54c6b23af859f field_type-image field_key-field_54c6b23af859f field_type-image field_key-field_54c6b23af859f",
+                "id": ""
+            },
+            "return_format": "id",
+            "preview_size": "medium",
+            "library": "all",
+            "min_width": 0,
+            "min_height": 0,
+            "min_size": 0,
+            "max_width": 0,
+            "max_height": 0,
+            "max_size": 0,
+            "mime_types": ""
+        },
+        {
+            "key": "field_5c67244db61b8",
+            "label": "Booking Link",
+            "name": "booking_link",
+            "type": "url",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": ""
+        },
+        {
+            "key": "field_5970d33307500",
+            "label": "Header Copy",
+            "name": "header_copy",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5970bc3569d8a",
+                        "operator": "==",
+                        "value": "header-03"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_54fcbb8fcd118",
+            "label": "Colophon Background",
+            "name": "colophon_background",
+            "type": "image",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "field_type-image field_key-field_54fcbb8fcd118 field_type-image field_key-field_54fcbb8fcd118 field_type-image field_key-field_54fcbb8fcd118",
+                "id": ""
+            },
+            "return_format": "id",
+            "preview_size": "medium",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_54ff054b81c8d",
+            "label": "Colophon Background Color",
+            "name": "colophon_background_color",
+            "type": "color_picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "field_type-color_picker field_key-field_54ff054b81c8d field_type-color_picker field_key-field_54ff054b81c8d field_type-color_picker field_key-field_54ff054b81c8d",
+                "id": ""
+            },
+            "default_value": "#333333"
+        },
+        {
+            "key": "field_55521e50c1779",
+            "label": "Colophon Headline Color",
+            "name": "colophon_headline_color",
+            "type": "color_picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "field_type-color_picker field_key-field_55521e50c1779 field_type-color_picker field_key-field_55521e50c1779 field_type-color_picker field_key-field_55521e50c1779",
+                "id": ""
+            },
+            "default_value": ""
+        },
+        {
+            "key": "field_55521e6dc177a",
+            "label": "Colophon Text Color",
+            "name": "colophon_text_color",
+            "type": "color_picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "field_type-color_picker field_key-field_55521e6dc177a field_type-color_picker field_key-field_55521e6dc177a field_type-color_picker field_key-field_55521e6dc177a",
+                "id": ""
+            },
+            "default_value": ""
+        },
+        {
+            "key": "field_54fcaa8129157",
+            "label": "Footer Copyright",
+            "name": "footer_copyright",
+            "type": "wysiwyg",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "field_type-wysiwyg field_key-field_54fcaa8129157 field_type-wysiwyg field_key-field_54fcaa8129157 field_type-wysiwyg field_key-field_54fcaa8129157",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1,
+            "delay": 0
+        },
+        {
+            "key": "field_5c2e8d0095265",
+            "label": "Social Media",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5c2e8d0c95266",
+            "label": "Social Media Buttons",
+            "name": "social_media_buttons",
+            "type": "repeater",
+            "instructions": "Social media icons and links will appear above the page footer if included here.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "block",
+            "button_label": "Add link",
+            "sub_fields": [
+                {
+                    "key": "field_5c2e8d3e95267",
+                    "label": "Social URL",
+                    "name": "social_url",
+                    "type": "url",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": ""
+                },
+                {
+                    "key": "field_5c2e8d5995268",
+                    "label": "Social Icon",
+                    "name": "social_icon",
+                    "type": "text",
+                    "instructions": "See FontAwesome 4.7 icon set for icon name\r\nhttps:\/\/fontawesome.com\/v4.7.0\/icons\/",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "34",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "facebook",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_5c2e8da395269",
+                    "label": "Social Title",
+                    "name": "social_title",
+                    "type": "text",
+                    "instructions": "Name of the Social Media link.",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "Facebook",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "site-options"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": [
+        "the_content"
+    ],
+    "active": 1,
+    "description": "",
+    "modified": 1550263447
+}

@@ -1,0 +1,113 @@
+{
+    "key": "group_5c17c8d794108",
+    "title": "Business Options",
+    "fields": [
+        {
+            "key": "field_5c17c8f23e329",
+            "label": "Email Address",
+            "name": "email_address",
+            "type": "email",
+            "instructions": "Businesses primary email address.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "email@address.com",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_5c17c97d3e32a",
+            "label": "Business Address",
+            "name": "business_address",
+            "type": "textarea",
+            "instructions": "Physical address for business.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": 4,
+            "new_lines": "br"
+        },
+        {
+            "key": "field_5c17c9bb3e32b",
+            "label": "Telephone Number",
+            "name": "telephone_number",
+            "type": "intl_tel_input",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "separateDialCode": 0,
+            "allowDropdown": 1,
+            "initialCountry": "auto",
+            "excludeCountries": "",
+            "onlyCountries": "",
+            "preferredCountries": ""
+        },
+        {
+            "key": "field_5c17ca383e32c",
+            "label": "Website Address",
+            "name": "website_address",
+            "type": "url",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "http:\/\/www.website.com"
+        },
+        {
+            "key": "field_5c2675928a26f",
+            "label": "Website Address (copy)",
+            "name": "website_address_copy",
+            "type": "url",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "http:\/\/www.website.com"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "business"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "acf_after_title",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1546024672
+}
